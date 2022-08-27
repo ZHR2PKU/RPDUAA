@@ -1,0 +1,2841 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_21476</BlastOutput_query-ID>
+  <BlastOutput_query-def>1M4C_1|Chains A, B|interleukin-2|Homo sapiens (9606)</BlastOutput_query-def>
+  <BlastOutput_query-len>133</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_21476</Iteration_query-ID>
+  <Iteration_query-def>1M4C_1|Chains A, B|interleukin-2|Homo sapiens (9606)</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AAH66254.1|</Hit_id>
+  <Hit_def>Interleukin 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH66254</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.092</Hsp_bit-score>
+      <Hsp_score>697</Hsp_score>
+      <Hsp_evalue>5.13085e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|NP_000577.2|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Homo sapiens] &gt;ref|XP_002815161.1| interleukin-2 [Pongo abelii] &gt;ref|XP_003816453.1| interleukin-2 [Pan paniscus] &gt;ref|XP_517425.1| interleukin-2 [Pan troglodytes] &gt;sp|P60568.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; AltName: INN=Aldesleukin; Flags: Precursor [Homo sapiens] &gt;sp|P60569.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Hylobates lar] &gt;gb|ADQ32007.1| interleukin 2, partial [synthetic construct] &gt;emb|SJX34374.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAA35453.1| interleukin-2 [Hylobates lar] &gt;gb|AAA35454.1| interleukin 2 [Hylobates lar] &gt;gb|AAA98792.1| interleukin 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_000577</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>6.46059e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_004040401.1|</Hit_id>
+  <Hit_def>interleukin-2 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004040401</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>6.67683e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|1M47|A</Hit_id>
+  <Hit_def>Crystal Structure of Human Interleukin-2 [Homo sapiens] &gt;pdb|1M48|A Crystal Structure of Human IL-2 Complexed with (R)-N-[2-[1-(Aminoiminomethyl)-3-piperidinyl]-1-oxoethyl]-4-(phenylethynyl)-L-phenylalanine methyl ester [Homo sapiens] &gt;pdb|1M48|B Crystal Structure of Human IL-2 Complexed with (R)-N-[2-[1-(Aminoiminomethyl)-3-piperidinyl]-1-oxoethyl]-4-(phenylethynyl)-L-phenylalanine methyl ester [Homo sapiens] &gt;pdb|1M49|A Crystal Structure of Human Interleukin-2 Complexed with SP-1985 [Homo sapiens] &gt;pdb|1M49|B Crystal Structure of Human Interleukin-2 Complexed with SP-1985 [Homo sapiens] &gt;pdb|1M4C|A Crystal Structure of Human Interleukin-2 [Homo sapiens] &gt;pdb|1M4C|B Crystal Structure of Human Interleukin-2 [Homo sapiens] &gt;pdb|1PW6|A Low Micromolar Small Molecule Inhibitor of IL-2 [Homo sapiens] &gt;pdb|1PW6|B Low Micromolar Small Molecule Inhibitor of IL-2 [Homo sapiens] &gt;pdb|1Z92|A structure of interleukin-2 with its alpha receptor [Homo sapiens] &gt;pdb|2B5I|A cytokine receptor complex [Homo sapiens] &gt;pdb|5UTZ|A Human IL-2/Fab complex [Homo sapiens] &gt;pdb|5UTZ|D Human IL-2/Fab complex [Homo sapiens] &gt;pdb|5UTZ|E Human IL-2/Fab complex [Homo sapiens] &gt;pdb|5UTZ|I Human IL-2/Fab complex [Homo sapiens] &gt;pdb|7DR4|G Chain G, Interleukin-2 [Homo sapiens] &gt;pdb|7DR4|I Chain I, Interleukin-2 [Homo sapiens] &gt;pdb|7DR4|J Chain J, Interleukin-2 [Homo sapiens] &gt;pdb|7DR4|K Chain K, Interleukin-2 [Homo sapiens] &gt;emb|CAA30243.1| synthetic interleukin 2 (133 AA), partial [synthetic construct] &gt;emb|SJL88889.1| unnamed protein product, partial [Vector pAT153HIL2] &gt;gb|ABB20900.1| interleukin 2, partial [Homo sapiens] &gt;emb|CAP05189.1| interleukin 2, partial [synthetic construct]</Hit_def>
+  <Hit_accession>1M47_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>8.14935e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AAA59140.1|</Hit_id>
+  <Hit_def>interleukin 2 [Homo sapiens] &gt;gb|AVZ66182.1| interleukin-2 [synthetic construct] &gt;pdb|6YE3|C IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens] &gt;pdb|6YE3|F IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens] &gt;pdb|6YE3|I IL-2 in complex with a Fab fragment from UFKA-20 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA59140</Hit_accession>
+  <Hit_len>134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.552</Hsp_bit-score>
+      <Hsp_score>693</Hsp_score>
+      <Hsp_evalue>8.71145e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AZI70934.1|</Hit_id>
+  <Hit_def>Omp16-IL2, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AZI70934</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>2.15443e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>prf||1009281A</Hit_id>
+  <Hit_def>interleukin 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>1009281A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>3.46292e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGFNNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNG NNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1PY2|A</Hit_id>
+  <Hit_def>Structure of a 60 nM Small Molecule Bound to a Hot Spot on IL-2 [Homo sapiens] &gt;pdb|1PY2|B Structure of a 60 nM Small Molecule Bound to a Hot Spot on IL-2 [Homo sapiens] &gt;pdb|1PY2|C Structure of a 60 nM Small Molecule Bound to a Hot Spot on IL-2 [Homo sapiens] &gt;pdb|1PY2|D Structure of a 60 nM Small Molecule Bound to a Hot Spot on IL-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>1PY2_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>3.78607e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AWN85511.1|</Hit_id>
+  <Hit_def>IL-2-(GGGGS)3-PfCelTOS-FLAG tag [synthetic construct]</Hit_def>
+  <Hit_accession>AWN85511</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>5.10722e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>emb|CAP05187.1|</Hit_id>
+  <Hit_def>interleukin 2, partial [synthetic construct]</Hit_def>
+  <Hit_accession>CAP05187</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>5.5325e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AWN85510.1|</Hit_id>
+  <Hit_def>Co1-(EAAAK)3-IL-2-(GGGGS)3-PfCelTOS-FLAG tag [synthetic construct]</Hit_def>
+  <Hit_accession>AWN85510</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>5.60734e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>emb|SJL88000.1|</Hit_id>
+  <Hit_def>unnamed protein product, partial [Vector pLTp35]</Hit_def>
+  <Hit_accession>SJL88000</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>5.87325e-91</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_003271397.1|</Hit_id>
+  <Hit_def>interleukin-2 [Nomascus leucogenys] &gt;ref|XP_032027759.1| interleukin-2 [Hylobates moloch]</Hit_def>
+  <Hit_accession>XP_003271397</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.011</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>6.91329e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVQELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIV ELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|2ERJ|D</Hit_id>
+  <Hit_def>Crystal structure of the heterotrimeric interleukin-2 receptor in complex with interleukin-2 [Homo sapiens] &gt;pdb|2ERJ|H Crystal structure of the heterotrimeric interleukin-2 receptor in complex with interleukin-2 [Homo sapiens] &gt;pdb|3INK|C Unraveling The Structure Of Interleukin-2: Reply [Homo sapiens] &gt;pdb|3INK|D Unraveling The Structure Of Interleukin-2: Reply [Homo sapiens]</Hit_def>
+  <Hit_accession>2ERJ_D</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>7.81928e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFAQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1QVN|A</Hit_id>
+  <Hit_def>Structure of SP4160 Bound to IL-2 V69A [Homo sapiens] &gt;pdb|1QVN|B Structure of SP4160 Bound to IL-2 V69A [Homo sapiens] &gt;pdb|1QVN|C Structure of SP4160 Bound to IL-2 V69A [Homo sapiens] &gt;pdb|1QVN|D Structure of SP4160 Bound to IL-2 V69A [Homo sapiens]</Hit_def>
+  <Hit_accession>1QVN_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.23893e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEALNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEE LNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AAH66256.1|</Hit_id>
+  <Hit_def>Interleukin 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH66256</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>1.26415e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>ALTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>A TSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1IRL|A</Hit_id>
+  <Hit_def>THE SOLUTION STRUCTURE OF THE F42A MUTANT OF HUMAN INTERLEUKIN 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>1IRL_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.855</Hsp_bit-score>
+      <Hsp_score>686</Hsp_score>
+      <Hsp_evalue>1.29555e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTAKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLT KFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AAA72781.1|</Hit_id>
+  <Hit_def>interferon-gamma:interleukin-2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA72781</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.478</Hsp_bit-score>
+      <Hsp_score>698</Hsp_score>
+      <Hsp_evalue>1.59507e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1M4B|A</Hit_id>
+  <Hit_def>Crystal Structure of Human Interleukin-2 K43C Covalently Modified at C43 with 2-[2-(2-Cyclohexyl-2-guanidino-acetylamino)-acetylamino]-N-(3-mercapto-propyl)-propionamide [Homo sapiens]</Hit_def>
+  <Hit_accession>1M4B_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>1.90241e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFCFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTF FYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AAG53575.1|</Hit_id>
+  <Hit_def>interleukin-2, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAG53575</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>3.03146e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIIS</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIIS</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIIS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|ABC59139.1|</Hit_id>
+  <Hit_def>IL-2 calcitonin fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>ABC59139</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>3.24372e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1M4A|A</Hit_id>
+  <Hit_def>Crystal Structure of Human Interleukin-2 Y31C Covalently Modified at C31 with (1H-Indol-3-yl)-(2-mercapto-ethoxyimino)-acetic acid [Homo sapiens] &gt;pdb|1NBP|A Crystal Structure Of Human Interleukin-2 Y31C Covalently Modified At C31 With 3-Mercapto-1-(1,3,4,9-tetrahydro-B-carbolin-2-yl)-propan-1-one [Homo sapiens]</Hit_def>
+  <Hit_accession>1M4A_A</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>267.7</Hsp_bit-score>
+      <Hsp_score>683</Hsp_score>
+      <Hsp_evalue>3.6756e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNCKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINN KNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5LQB|A</Hit_id>
+  <Hit_def>Complex structure of human IL2 mutant, Proleukin, with Fab fragment of NARA1 antibody [Homo sapiens]</Hit_def>
+  <Hit_accession>5LQB_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>8.27488e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFSQSIISTLT</Hsp_hseq>
+      <Hsp_midline>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AAS17753.1|</Hit_id>
+  <Hit_def>interleukin-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAS17753</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.544</Hsp_bit-score>
+      <Hsp_score>680</Hsp_score>
+      <Hsp_evalue>9.55124e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFSQSIISTLT</Hsp_hseq>
+      <Hsp_midline>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|AAA72358.1|</Hit_id>
+  <Hit_def>fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA72358</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.715</Hsp_bit-score>
+      <Hsp_score>709</Hsp_score>
+      <Hsp_evalue>1.22951e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AAP35033.1|</Hit_id>
+  <Hit_def>interleukin-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAP35033</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>3.33806e-89</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLKEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFSQSIISTLT</Hsp_hseq>
+      <Hsp_midline>PTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPL+EVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AAA70092.1|</Hit_id>
+  <Hit_def>interleukin 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAA70092</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.003</Hsp_bit-score>
+      <Hsp_score>676</Hsp_score>
+      <Hsp_evalue>7.0364e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKT---QLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKQLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKT   QLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELK LQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|AAA73453.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73453</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.00319e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|AAA73451.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73451</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.01409e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|AAA72360.1|</Hit_id>
+  <Hit_def>fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA72360</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.04752e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|AAA73448.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73448</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>277.33</Hsp_bit-score>
+      <Hsp_score>708</Hsp_score>
+      <Hsp_evalue>1.1057e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|AAA73452.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73452</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.32878e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|AAA72359.1|</Hit_id>
+  <Hit_def>fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA72359</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.32878e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AAA73450.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73450</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>1.37258e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|AAA73449.1|</Hit_id>
+  <Hit_def>diphtheria toxin-interleukin 2 fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>AAA73449</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.559</Hsp_bit-score>
+      <Hsp_score>706</Hsp_score>
+      <Hsp_evalue>1.57968e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|4NEJ|A</Hit_id>
+  <Hit_def>Small molecular fragment bound to crystal contact interface of Interleukin-2 [Homo sapiens] &gt;pdb|4NEM|A Small molecular fragment bound to crystal contact interface of Interleukin-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>4NEJ_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>5.01224e-88</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>SSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>SSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFSQSIISTLT</Hsp_hseq>
+      <Hsp_midline>SSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_023073388.1|</Hit_id>
+  <Hit_def>interleukin-2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023073388</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.25803e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTMMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_011937479.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011937479</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.27191e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|NP_001040595.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Macaca mulatta] &gt;ref|NP_001292827.1| interleukin-2 precursor [Macaca nemestrina] &gt;ref|XP_007997918.1| interleukin-2 [Chlorocebus sabaeus] &gt;ref|XP_010360811.1| interleukin-2 [Rhinopithecus roxellana] &gt;ref|XP_011804007.1| PREDICTED: interleukin-2 [Colobus angolensis palliatus] &gt;ref|XP_011833646.1| PREDICTED: interleukin-2 [Mandrillus leucophaeus] &gt;ref|XP_017708086.1| PREDICTED: interleukin-2 [Rhinopithecus bieti] &gt;ref|XP_025241781.1| interleukin-2 [Theropithecus gelada] &gt;ref|XP_033069185.1| interleukin-2 [Trachypithecus francoisi] &gt;sp|P68290.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Macaca nemestrina] &gt;sp|P68291.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Macaca mulatta] &gt;gb|AAA86714.1| interleukin-2 [Macaca nemestrina] &gt;gb|AAB60400.1| interleukin-2 [Macaca mulatta]</Hit_def>
+  <Hit_accession>NP_001040595</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>1.4669e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|NP_001106124.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Papio anubis] &gt;sp|Q865Y1.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Papio anubis] &gt;gb|AAO85333.1| interleukin-2 precursor [Papio anubis]</Hit_def>
+  <Hit_accession>NP_001106124</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.766</Hsp_bit-score>
+      <Hsp_score>665</Hsp_score>
+      <Hsp_evalue>3.37712e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELRPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEEL+PLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|EHH26168.1|</Hit_id>
+  <Hit_def>hypothetical protein EGK_16067 [Macaca mulatta] &gt;gb|EHH53947.1| hypothetical protein EGM_14665 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH26168</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>5.73177e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>emb|CAP05190.1|</Hit_id>
+  <Hit_def>human IgG1-IL2-murine anti-CD30 ScFv antibody chimaeric fusion protein, partial [synthetic construct]</Hit_def>
+  <Hit_accession>CAP05190</Hit_accession>
+  <Hit_len>615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>7.04953e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>sp|P46649.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Cercocebus atys] &gt;gb|AAB60399.1| interleukin-2 [Cercocebus atys]</Hit_def>
+  <Hit_accession>P46649</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.61</Hsp_bit-score>
+      <Hsp_score>662</Hsp_score>
+      <Hsp_evalue>1.05708e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSRSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTS STKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|NP_001271628.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Macaca fascicularis] &gt;sp|Q29615.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Macaca fascicularis] &gt;dbj|BAA09676.1| interleukin-2 precursor [Macaca fascicularis]</Hit_def>
+  <Hit_accession>NP_001271628</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>1.5017e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELRHLQCLEEELKPLEEVLNLAQSKSFHLRDTKDLISNINVIVLELKGSETTLMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATEL+HLQCLEEELKPLEEVLNLAQSK+FHLR  +DLISNINVIVLELKGSETT MCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|5M5E|D</Hit_id>
+  <Hit_def>Crystal structure of a interleukin-2 variant in complex with interleukin-2 receptor [Homo sapiens]</Hit_def>
+  <Hit_accession>5M5E_D</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.07623e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTAKFAMPKKATELKHLQCLEEELKPLEEVLNGAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFAQSIISTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLT KF MPKKATELKHLQCLEEELKPLEEVLN AQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITF QSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>emb|CAP05188.1|</Hit_id>
+  <Hit_def>murine anti-CD30 ScFv antibody-human IgG1-IL2 chimeric fusion protein, partial [synthetic construct]</Hit_def>
+  <Hit_accession>CAP05188</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.633</Hsp_bit-score>
+      <Hsp_score>701</Hsp_score>
+      <Hsp_evalue>2.41349e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>619</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|AAD14264.1|</Hit_id>
+  <Hit_def>interleukin-2, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>AAD14264</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>5.51162e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWIT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLXLEHLLLDLQMILXGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWIT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQL LEHLLLDLQMIL GINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWIT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|XP_006153185.1|</Hit_id>
+  <Hit_def>interleukin-2 [Tupaia chinensis]</Hit_def>
+  <Hit_accession>XP_006153185</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>4.43876e-68</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPK-LTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTVDTKEPLEHLLLDLQKILNGINNYKNPKMLSRMLTFKFYTPRKATELKHLQCLEEELKPLEKVLNLAQSKNFHLKDTRQLISNINVTVLELKGSETS-VCEYEDRVATIVEFLNMWITFCQSIISTLS</Hsp_hseq>
+      <Hsp_midline>APTSSST  T+  LEHLLLDLQ ILNGINNYKNPK L+RMLTFKFY P+KATELKHLQCLEEELKPLE+VLNLAQSKNFHL+  R LISNINV VLELKGSET+ +CEY D  ATIVEFLN WITFCQSIISTL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|3QAZ|A</Hit_id>
+  <Hit_def>IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|D IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|G IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|J IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|M IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|P IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|S IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|V IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|Y IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|b IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|e IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QAZ|h IL-2 mutant D10 ternary complex [Homo sapiens] &gt;pdb|3QB1|A Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|B Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|C Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|D Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|E Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|F Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|G Interleukin-2 mutant D10 [Homo sapiens] &gt;pdb|3QB1|H Interleukin-2 mutant D10 [Homo sapiens]</Hit_def>
+  <Hit_accession>3QAZ_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>5.12171e-67</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAHSKNFHFDPRDVVSNINVFVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLA SKNFH  PRD++SNINV VLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|AGF69217.1|</Hit_id>
+  <Hit_def>interleukin 2 [Tupaia glis]</Hit_def>
+  <Hit_accession>AGF69217</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.223</Hsp_bit-score>
+      <Hsp_score>526</Hsp_score>
+      <Hsp_evalue>4.73249e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPK-LTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTPGATVDTKEPLEHLLLDLQKILNGINNYKNPKMLSRMLTFKFYTPRKATELKHLQCLEEELKPLEKVLNLAQSKNFHLKDTRQLISNINVTVLELKGSETS-VCEYEDRVATIVEFLNMWITFCQSIISTLS</Hsp_hseq>
+      <Hsp_midline>APT  +T  T+  LEHLLLDLQ ILNGINNYKNPK L+RMLTFKFY P+KATELKHLQCLEEELKPLE+VLNLAQSKNFHL+  R LISNINV VLELKGSET+ +CEY D  ATIVEFLN WITFCQSIISTL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|XP_005336588.1|</Hit_id>
+  <Hit_def>interleukin-2 [Ictidomys tridecemlineatus] &gt;gb|KAG3276237.1| interleukin 2 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005336588</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>7.8042e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSGSAEETRQQLEHLLLDLQVLSRGVSNQENSTLTRMLKFKFYMPKKATDLEHLQCLEEELKPLQEVLNVPQSKNFHLKDTRNFISNINVTVLKLKGSATTFTCEYAQETANIVEFLNTWITFCQSIISKL</Hsp_hseq>
+      <Hsp_midline>APTS S ++T+ QLEHLLLDLQ++  G++N +N  LTRML FKFYMPKKAT+L+HLQCLEEELKPL+EVLN+ QSKNFHL+  R+ ISNINV VL+LKGS TTF CEYA ETA IVEFLN WITFCQSIIS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|XP_026237493.1|</Hit_id>
+  <Hit_def>interleukin-2 [Urocitellus parryii]</Hit_def>
+  <Hit_accession>XP_026237493</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>2.20606e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSGSAEETRQQVEQLLLDLQMLSRGVSNQENSTLTRMLKFKFYIPKKATDLEHLQCLEEELKPLQEVLNVPQSKNFHLKDTRNFISNINVTVLKLKGSATTFTCEYAQETANIVEFLNTWITFCQSIISKL</Hsp_hseq>
+      <Hsp_midline>APTS S ++T+ Q+E LLLDLQM+  G++N +N  LTRML FKFY+PKKAT+L+HLQCLEEELKPL+EVLN+ QSKNFHL+  R+ ISNINV VL+LKGS TTF CEYA ETA IVEFLN WITFCQSIIS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|XP_017375806.1|</Hit_id>
+  <Hit_def>interleukin-2 [Cebus imitator] &gt;ref|XP_032148264.1| interleukin-2 [Sapajus apella]</Hit_def>
+  <Hit_accession>XP_017375806</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>1.27314e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMLLNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTRDIISNINVLVLELKGSETTFTCEYDDDTATIIEFLNGWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQM+LNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  RD+ISNINV+VLELKGSETTF CEY D+TATI+EFLN WITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|NP_001295461.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Aotus nancymaae] &gt;sp|Q7JFM2.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Aotus lemurinus] &gt;sp|Q7JFM3.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Aotus nigriceps] &gt;sp|Q7JFM4.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Aotus vociferans] &gt;sp|Q7JFM5.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Aotus nancymaae] &gt;sp|Q9XS38.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Papio hamadryas] &gt;gb|AAD41534.1| IL-2 [Aotus lemurinus] &gt;gb|AAD41535.1| IL-2 [Aotus nancymaae] &gt;gb|AAD41536.1| IL-2 [Aotus nigriceps] &gt;gb|AAD41537.1| IL-2 [Aotus vociferans] &gt;gb|AAD41538.1| IL-2 [Papio hamadryas]</Hit_def>
+  <Hit_accession>NP_001295461</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>1.42054e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMLLNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTRDIISNINVLVLELKGSETTFTCEYDDDTATIIEFLNGWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQM+LNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  RD+ISNINV+VLELKGSETTF CEY D+TATI+EFLN WITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|XP_012505860.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Propithecus coquereli]</Hit_def>
+  <Hit_accession>XP_012505860</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>1.63877e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETRQQLEQLLLDLQMALNRVNNYKNPKLSRMLTFKFYVPKKATELKHLQCLEDELEALEKVLNLAESKNFHLRDTRELIGNINVTVLELKGSE-TFTCE-DDETATITEFLNRWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+T+ QLE LLLDLQM LN +NNYKNPKL+RMLTFKFY+PKKATELKHLQCLE+EL+ LE+VLNLA+SKNFHLR  R+LI NINV VLELKGSE TF CE  DETATI EFLNRWITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|XP_003936285.1|</Hit_id>
+  <Hit_def>interleukin-2 [Saimiri boliviensis boliviensis] &gt;sp|Q8MKH2.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Saimiri sciureus] &gt;gb|AAK92042.1| interleukin-2 [Saimiri sciureus]</Hit_def>
+  <Hit_accession>XP_003936285</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>6.16542e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMLLNGINNYKNPKLTRMLTFKFYLPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTRDIISNINVLVLELKGSETTFTCEYDDDTATIIEFLNGWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQM+LNGINNYKNPKLTRMLTFKFY+PKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  RD+ISNINV+VLELKGSETTF CEY D+TATI+EFLN WITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|XP_039097533.1|</Hit_id>
+  <Hit_def>interleukin-2 [Hyaena hyaena] &gt;gb|KAF0877676.1| IL2 protein, partial [Crocuta crocuta]</Hit_def>
+  <Hit_accession>XP_039097533</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>9.24666e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNHENPKLSRMLTFKFYMPKKATELTHLQCLVEELKPLEEVLYLAQSKNFHLRHIKELMSNINVTVLKLKGSETRFTCEYDDETANIVEFLNKWITFCQSIFSTLS</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN++NPKL+RMLTFKFYMPKKATEL HLQCL EELKPLEEVL LAQSKNFHLR  ++L+SNINV VL+LKGSET F CEY DETA IVEFLN+WITFCQSI STL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>ref|XP_002745478.1|</Hit_id>
+  <Hit_def>interleukin-2 [Callithrix jacchus] &gt;gb|ABH03458.1| interleukin 2 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002745478</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.15115e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMLLNGINNYKNPKLTRMLTFKFYMPKKAKELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTRDIISNINVLVLELKGSETTFTCEYDDDTATIIEFLNGWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQM+LNGINNYKNPKLTRMLTFKFYMPKKA ELKHLQCLEEELKPLEEVLNLAQSKNFHLR  RD+ISNINV+VLELKGSETTF CEY D+TATI+EFLN WITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>ref|XP_037684981.1|</Hit_id>
+  <Hit_def>interleukin-2 [Choloepus didactylus]</Hit_def>
+  <Hit_accession>XP_037684981</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.28441e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKEMQQQLEQLLLDLQMLSNMVNNYKNLKLSRMLTFKFYMPKKVTELKHLQCLVEELKPLENVLNLAQSKMVDLRHNRDLISNINVTVLELKGSETTFMCEYDDEAATIVEFLNKWITFCQSIISTRT</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+ Q QLE LLLDLQM+ N +NNYKN KL+RMLTFKFYMPKK TELKHLQCL EELKPLE VLNLAQSK   LR  RDLISNINV VLELKGSETTFMCEY DE ATIVEFLN+WITFCQSIIST T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|XP_017495639.1|</Hit_id>
+  <Hit_def>interleukin-2 [Manis javanica] &gt;ref|XP_036778876.1| interleukin-2 [Manis pentadactyla]</Hit_def>
+  <Hit_accession>XP_017495639</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>1.86401e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETEQQLEQLLLDLRLLLNGVNNYENPKLSRMLTFTFYVPKKATELKHLQCLVEELKPVEGVLHLAQSKNFHLRDIKELMSNINVTVLELKGSETSFTCEYDDETENIVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+T+ QLE LLLDL+++LNG+NNY+NPKL+RMLTF FY+PKKATELKHLQCL EELKP+E VL+LAQSKNFHLR  ++L+SNINV VLELKGSET+F CEY DET  IVEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|XP_029797186.1|</Hit_id>
+  <Hit_def>interleukin-2 [Suricata suricatta]</Hit_def>
+  <Hit_accession>XP_029797186</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>1.90419e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNHENPKLSRMLTFKFYVPKKATELTHLQCLVEELKPLEEVLYLAQNKNFHLRHIKELMSNINVTVLKLKGSETRFTCEYDDETATVVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN++NPKL+RMLTFKFY+PKKATEL HLQCL EELKPLEEVL LAQ+KNFHLR  ++L+SNINV VL+LKGSET F CEY DETAT+VEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>sp|O62641.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Mirounga angustirostris] &gt;gb|AAC12258.1| interleukin 2 precursor [Mirounga angustirostris]</Hit_def>
+  <Hit_accession>O62641</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>2.09765e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTTSSTKETQQQLEQLLLDLRLLLNGVNNYEDPKLSRMLTFKFYTPKKATELTHLQCLAEELKPLEEVLYLAQSKNFHLTDIKELMSNINVTLLKLKGSETRFKCEYDDETATITEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>APT+SSTK+TQ QLE LLLDL+++LNG+NNY++PKL+RMLTFKFY PKKATEL HLQCL EELKPLEEVL LAQSKNFHL   ++L+SNINV +L+LKGSET F CEY DETATI EFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|AAA51431.1|</Hit_id>
+  <Hit_def>interleukin 2, partial [Felis catus]</Hit_def>
+  <Hit_accession>AAA51431</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>3.32286e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNPENPKLSRMLTFKFYVPKKATELTHLQCLVEELKPLEEVLYLAQSKNFHLNHIKELMSNINVTVLKLKGSETRFTCNYDDETATIVEFLNKWITFCQSIISTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN +NPKL+RMLTFKFY+PKKATEL HLQCL EELKPLEEVL LAQSKNFHL   ++L+SNINV VL+LKGSET F C Y DETATIVEFLN+WITFCQSIISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|XP_006991885.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Peromyscus maniculatus bairdii]</Hit_def>
+  <Hit_accession>XP_006991885</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>8.80095e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETQQHLEQLLMDLEVLLKGINNYKNPKLPMILTFKFYMPKKATELKHLQCLEEELGALQRVLDLAQSKSFRLEDAENSISNIRVTVVKLKGSENTSTCEFHDETVTVVEFLNTWIAFCQSAIATMA</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+TQ  LE LL+DL+++L GINNYKNPKL  +LTFKFYMPKKATELKHLQCLEEEL  L+ VL+LAQSK+F L    + ISNI V V++LKGSE T  CE+ DET T+VEFLN WI FCQS I+T+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|XP_028745674.1|</Hit_id>
+  <Hit_def>interleukin-2 [Peromyscus leucopus]</Hit_def>
+  <Hit_accession>XP_028745674</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.03722e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETQQHLEQLLMDLEVLLEGINNYKNPKLPMILTFKFYMPKKATELKHLQCLEEELGALQRVLDLAQSKSFRLEDAENSISNIRVTVVKLKGSENTSTCEFHDETVTVVEFLNTWIAFCQSTIATM</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+TQ  LE LL+DL+++L GINNYKNPKL  +LTFKFYMPKKATELKHLQCLEEEL  L+ VL+LAQSK+F L    + ISNI V V++LKGSE T  CE+ DET T+VEFLN WI FCQS I+T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|XP_007087656.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Panthera tigris altaica] &gt;ref|XP_019274533.1| PREDICTED: interleukin-2 [Panthera pardus] &gt;ref|XP_025777097.1| interleukin-2 [Puma concolor] &gt;ref|XP_030167766.1| interleukin-2 [Lynx canadensis] &gt;ref|XP_040330563.1| interleukin-2 [Puma yagouaroundi] &gt;emb|VFV43006.1| interleukin-2 precursor [Lynx pardinus]</Hit_def>
+  <Hit_accession>XP_007087656</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>1.18375e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNPENPKLSRMLTFKFYVPKKATELTHLQCLVEELKPLEEVLYLAQSKNFHLNHIKELMSNINVTVLKLKGSETRFTCKYDDETATIVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN +NPKL+RMLTFKFY+PKKATEL HLQCL EELKPLEEVL LAQSKNFHL   ++L+SNINV VL+LKGSET F C+Y DETATIVEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|XP_003795566.1|</Hit_id>
+  <Hit_def>interleukin-2 [Otolemur garnettii]</Hit_def>
+  <Hit_accession>XP_003795566</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.47576e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APISSSTKETRQQLEQLLLDLQMVLNGVNNNKNPKLSRMLTLKLYVPKKATELKHLQCLEEELGPLEKVLDLGQSKNFHLGDTREVIGNINVTVLELKGSE-TFICE-DNETATIVEFLNRWITFCQSIISTMT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+T+ QLE LLLDLQM+LNG+NN KNPKL+RMLT K Y+PKKATELKHLQCLEEEL PLE+VL+L QSKNFHL   R++I NINV VLELKGSE TF+CE  +ETATIVEFLNRWITFCQSIIST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gb|AAP04419.1|</Hit_id>
+  <Hit_def>interleukin-2, partial [Peromyscus maniculatus]</Hit_def>
+  <Hit_accession>AAP04419</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.87786e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIIST</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETQQHLEQLLMDLEVLLKGINNYKNPKLPMILTFKFYMPKKATELKHLQCLEEELGALQHVLDLAQSKSFRLEDAENSISNIRVTVAKLKGSENTSTCEFHDETVTVVEFLNTWIAFCQSAIST</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+TQ  LE LL+DL+++L GINNYKNPKL  +LTFKFYMPKKATELKHLQCLEEEL  L+ VL+LAQSK+F L    + ISNI V V +LKGSE T  CE+ DET T+VEFLN WI FCQS IST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gb|AAX63392.1|</Hit_id>
+  <Hit_def>interleukin-2 [Felis catus]</Hit_def>
+  <Hit_accession>AAX63392</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>2.02451e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQRLEQLLLDLRLLLNGVNNPENPKLSRMLTFKFYVPKKATELTHLQCLVEELKPLEEVLYLAQSKNFHLNHIKELMSNINVTVLKLKGSETRFTCNYDDETATIVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ +LE LLLDL+++LNG+NN +NPKL+RMLTFKFY+PKKATEL HLQCL EELKPLEEVL LAQSKNFHL   ++L+SNINV VL+LKGSET F C Y DETATIVEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|NP_001036802.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Felis catus] &gt;ref|XP_023107983.1| interleukin-2 isoform X1 [Felis catus] &gt;sp|Q07885.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Felis catus] &gt;gb|AAA02865.1| interleukin 2 [Felis catus]</Hit_def>
+  <Hit_accession>NP_001036802</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>2.02451e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNPENPKLSRMLTFKFYVPKKATELTHLQCLVEELKPLEEVLYLAQSKNFHLNHIKELMSNINVTVLKLKGSETRFTCNYDDETATIVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN +NPKL+RMLTFKFY+PKKATEL HLQCL EELKPLEEVL LAQSKNFHL   ++L+SNINV VL+LKGSET F C Y DETATIVEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|XP_012877594.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Dipodomys ordii]</Hit_def>
+  <Hit_accession>XP_012877594</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>2.21152e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSAPMKEARGQLEQVLLDLQVLLKAVNSDKNLKLSRMLTFKFYMPKKATDLKHLQCLEEELKPLEGVLNLAQSNNFHLKDSRDLISNINVTVLKLKGSE-TFICDYEDKTATIVEFLNRWIIFCQGIISTLT</Hsp_hseq>
+      <Hsp_midline>APTS+  K+ + QLE +LLDLQ++L  +N+ KN KL+RMLTFKFYMPKKAT+LKHLQCLEEELKPLE VLNLAQS NFHL+  RDLISNINV VL+LKGSE TF+C+Y D+TATIVEFLNRWI FCQ IISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|XP_008574851.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Galeopterus variegatus]</Hit_def>
+  <Hit_accession>XP_008574851</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.496</Hsp_bit-score>
+      <Hsp_score>467</Hsp_score>
+      <Hsp_evalue>5.54903e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETQQQVEQLLLDLQMLLNGVNNYKNPKLSRMLTFKFYTPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRDTRELISNINVTVLELKGSETC-ICEYDDDTATIVEFLSRWITFCQSIISTST</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+TQ Q+E LLLDLQM+LNG+NNYKNPKL+RMLTFKFY PKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR  R+LISNINV VLELKGSET  +CEY D+TATIVEFL+RWITFCQSIIST T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|XP_008847454.1|</Hit_id>
+  <Hit_def>interleukin-2 [Nannospalax galili]</Hit_def>
+  <Hit_accession>XP_008847454</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>8.31479e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSPTKETQQQLQQLLLDLQMLLRGTTNHKNSELSRMLTFKFYMPKKATELTHLQCLEEELQPLQEVLSLAQSKSFHLKDTREFISNIKVTILKLKGSENTFMCDYDDETATVVEFLSRWITFCQSLISTLT</Hsp_hseq>
+      <Hsp_midline>APTSS TK+TQ QL+ LLLDLQM+L G  N+KN +L+RMLTFKFYMPKKATEL HLQCLEEEL+PL+EVL+LAQSK+FHL+  R+ ISNI V +L+LKGSE TFMC+Y DETAT+VEFL+RWITFCQS+ISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>ref|XP_014930093.1|</Hit_id>
+  <Hit_def>interleukin-2 [Acinonyx jubatus]</Hit_def>
+  <Hit_accession>XP_014930093</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>9.27706e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APASSSTKETQQQLEQLLLDLRLLLNGVNNPENPKLSRMLTFKFYVPKKATELTHLQCLVEELTPLEEVLYLAQSKNFHLNHIKELMSNINVTVLKLKGSETRFTCKYDDETATIVEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP SSSTK+TQ QLE LLLDL+++LNG+NN +NPKL+RMLTFKFY+PKKATEL HLQCL EEL PLEEVL LAQSKNFHL   ++L+SNINV VL+LKGSET F C+Y DETATIVEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|XP_006217680.1|</Hit_id>
+  <Hit_def>interleukin-2 [Vicugna pacos]</Hit_def>
+  <Hit_accession>XP_006217680</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.31704e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHL-RPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTLSSTKDTKKQLEPLLLDLQFLLKEVNNYENLKLSRMLTFKFYMPKKATELKHLQCLMEELKPLEEVLNLAQSKNSHLTNIKDSMNNINLTVSELKGSETGFTCEYDDETVTVVEFLNKWITFCQSIYSTLT</Hsp_hseq>
+      <Hsp_midline>APT SSTK T+ QLE LLLDLQ +L  +NNY+N KL+RMLTFKFYMPKKATELKHLQCL EELKPLEEVLNLAQSKN HL   +D ++NIN+ V ELKGSET F CEY DET T+VEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|XP_006180770.1|</Hit_id>
+  <Hit_def>interleukin-2 [Camelus ferus] &gt;ref|XP_010950882.1| PREDICTED: interleukin-2 [Camelus bactrianus] &gt;sp|Q2PE47.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Camelus bactrianus] &gt;gb|KAB1282167.1| Interleukin-2 [Camelus dromedarius] &gt;dbj|BAE75802.1| interleukin-2 [Camelus bactrianus]</Hit_def>
+  <Hit_accession>XP_006180770</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>1.51853e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHL-RPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTLSSTKDTKKQLEPLLLDLQFLLKEVNNYENLKLSRMLTFKFYMPKKATELKHLQCLMEELKPLEEVLNLAQSKNSHLTNIKDSMNNINLTVSELKGSETGFTCEYDDETVTVVEFLNKWITFCQSIYSTLT</Hsp_hseq>
+      <Hsp_midline>APT SSTK T+ QLE LLLDLQ +L  +NNY+N KL+RMLTFKFYMPKKATELKHLQCL EELKPLEEVLNLAQSKN HL   +D ++NIN+ V ELKGSET F CEY DET T+VEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gb|AIT97148.1|</Hit_id>
+  <Hit_def>interleukin 2, partial [Vicugna pacos]</Hit_def>
+  <Hit_accession>AIT97148</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>1.54133e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTLSSTKDTKKQLEPLLLDLQFLLKEVNNYENLKLSRMLTFKFYMPKKATELKHLQCLMEELKPLEEVLNLAQSKNSHLTNIKDSMNNINLTVSELKGSETGFTCEYDDETVTVVEFLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APT SSTK T+ QLE LLLDLQ +L  +NNY+N KL+RMLTFKFYMPKKATELKHLQCL EELKPLEEVLNLAQSKN HL   +D ++NIN+ V ELKGSET F CEY DET T+VEFLN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>sp|Q865X2.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Lama glama] &gt;dbj|BAC75388.1| interleukin 2 [Lama glama]</Hit_def>
+  <Hit_accession>Q865X2</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.10909e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHL-RPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTLSSTKDTKKQLEPLLLDLQFLLKEVNNYENLKLSRMLTFKFYMPKKATELKHLQCLMEELKPLEEVLNLAQSKNSHLTNIKDSMNNINLTVSELKGSETGFTCEYDDETVTVVEFLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APT SSTK T+ QLE LLLDLQ +L  +NNY+N KL+RMLTFKFYMPKKATELKHLQCL EELKPLEEVLNLAQSKN HL   +D ++NIN+ V ELKGSET F CEY DET T+VEFLN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|NP_001290477.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Camelus dromedarius] &gt;gb|ADH51719.1| interleukin-2 [Camelus dromedarius]</Hit_def>
+  <Hit_accession>NP_001290477</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.185</Hsp_bit-score>
+      <Hsp_score>461</Hsp_score>
+      <Hsp_evalue>4.20435e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHL-RPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTLSSTKDTKKQLEPLLLDLQFLLKEVNNYENLKLSRMLTFKFYMPKKATELKHLQCLMEELKPLEDVLNLAQSKNSHLTNIKDSMNNINLTVSELKGSETGFTCEYDDETVTVVEFLNKWITFCQSIYSTLT</Hsp_hseq>
+      <Hsp_midline>APT SSTK T+ QLE LLLDLQ +L  +NNY+N KL+RMLTFKFYMPKKATELKHLQCL EELKPLE+VLNLAQSKN HL   +D ++NIN+ V ELKGSET F CEY DET T+VEFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gb|AAA75360.1|</Hit_id>
+  <Hit_def>interleukin-2, partial [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>AAA75360</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>9.86824e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>AP-TSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APITSSSTKETEQQMERLLLDLQLLLNGVNNYENPQLSRMLTFKFYTPKKATEFTHLQCLAEELKNLEEVLGLPQSKNVHLTDTKELISNMNVTLLKLKGSETSYNCEYDDETATITEFLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>AP TSSSTK+T+ Q+E LLLDLQ++LNG+NNY+NP+L+RMLTFKFY PKKATE  HLQCL EELK LEEVL L QSKN HL   ++LISN+NV +L+LKGSET++ CEY DETATI EFLN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|XP_008066579.1|</Hit_id>
+  <Hit_def>interleukin-2 [Carlito syrichta]</Hit_def>
+  <Hit_accession>XP_008066579</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.63827e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKKTQLQLEHLLLDLQMLLNGVNNDKNTKLPMMLKFKFYVPKKVTELKHLQCLQGELKPLEEVLNIAESKNFHLKDTRNTISNINITVLELKGSETVFMCDY-NERVTIAEFLNRWITFCQSIIATLT</Hsp_hseq>
+      <Hsp_midline>APTSSSTKKTQLQLEHLLLDLQM+LNG+NN KN KL  ML FKFY+PKK TELKHLQCL+ ELKPLEEVLN+A+SKNFHL+  R+ ISNIN+ VLELKGSET FMC+Y +E  TI EFLNRWITFCQSII+TLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|NP_001268558.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Mesocricetus auratus] &gt;gb|ACE62917.1| interleukin-2 [Mesocricetus auratus]</Hit_def>
+  <Hit_accession>NP_001268558</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.104</Hsp_bit-score>
+      <Hsp_score>453</Hsp_score>
+      <Hsp_evalue>6.34719e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSKKETQQHLEQLLLDLQELLKGINNYKNPKLPMMLTFKFYMPKKATELKHLQCLEEELGALQSVLDLAQSKSFHLEDAENFISNIRVTVVKLKGSESTFRCEFDDETVTVVEFLNRWITFCQSSIATMT</Hsp_hseq>
+      <Hsp_midline>APTSSS K+TQ  LE LLLDLQ +L GINNYKNPKL  MLTFKFYMPKKATELKHLQCLEEEL  L+ VL+LAQSK+FHL    + ISNI V V++LKGSE+TF CE+ DET T+VEFLNRWITFCQS I+T+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|XP_007464893.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Lipotes vexillifer]</Hit_def>
+  <Hit_accession>XP_007464893</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>4.50903e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFH-LRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKKQVQSLLQDLHLLLKEINNYKNLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNSIDIKDLMDNINRIVLTLKGSETRFRCEYDDETVTAVEFLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LL DL ++L  INNYKN KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  + +  +DL+ NIN IVL LKGSET F CEY DET T VEFLN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|XP_006917814.1|</Hit_id>
+  <Hit_def>interleukin-2 [Pteropus alecto] &gt;gb|ELK07634.1| Interleukin-2 [Pteropus alecto]</Hit_def>
+  <Hit_accession>XP_006917814</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>7.23473e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSRKETQQQLEHLLKDLQRLLETVNNYKNHELSSMLTFKFYMPN-ATELNHLQCLVDELKPLEEVLTIAQSKNSHSDIKESVSNINVTAQKLKGPETKYTCVYNDESANVKEFLNKWITFCQSILSTLA</Hsp_hseq>
+      <Hsp_midline>APTSSS K+TQ QLEHLL DLQ +L  +NNYKN +L+ MLTFKFYMP  ATEL HLQCL +ELKPLEEVL +AQSKN H   ++ +SNINV   +LKG ET + C Y DE+A + EFLN+WITFCQSI+STL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|NP_001003305.1|</Hit_id>
+  <Hit_def>interleukin-2 precursor [Canis lupus familiaris] &gt;ref|XP_025276319.1| interleukin-2 [Canis lupus dingo] &gt;sp|Q29416.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Canis lupus familiaris] &gt;gb|ACI25438.1| interleukin-2 [Nyctereutes procyonoides] &gt;gb|AAA68969.1| interleukin-2 [Canis lupus familiaris] &gt;dbj|BAA06378.1| interleukin-2 precursor [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>NP_001003305</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>9.79897e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>AP-TSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APITSSSTKETEQQMEQLLLDLQLLLNGVNNYENPQLSRMLTFKFYTPKKATEFTHLQCLAEELKNLEEVLGLPQSKNVHLTDTKELISNMNVTLLKLKGSETSYNCEYDDETATITEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP TSSSTK+T+ Q+E LLLDLQ++LNG+NNY+NP+L+RMLTFKFY PKKATE  HLQCL EELK LEEVL L QSKN HL   ++LISN+NV +L+LKGSET++ CEY DETATI EFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>ref|XP_025872571.1|</Hit_id>
+  <Hit_def>interleukin-2 [Vulpes vulpes] &gt;ref|XP_041613921.1| interleukin-2 [Vulpes lagopus] &gt;sp|Q25BC3.1| RecName: Full=Interleukin-2; Short=IL-2; AltName: Full=T-cell growth factor; Short=TCGF; Flags: Precursor [Vulpes vulpes] &gt;gb|ABO26864.1| interleukin 2 [Vulpes vulpes] &gt;emb|CAF18412.1| interleukin 2 [Vulpes vulpes]</Hit_def>
+  <Hit_accession>XP_025872571</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.09325e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>AP-TSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APITSSSTKETEQQMEQLLLDLQLLLNGVNNYENPQLSRMLTFKFYTPKKATEFTHLQCLAEELKNLEEVLGLPQSKNVHLTDTKELISNMNVTLLKLKGSETSYNCEYDDETATITEFLNKWITFCQSIFSTLT</Hsp_hseq>
+      <Hsp_midline>AP TSSSTK+T+ Q+E LLLDLQ++LNG+NNY+NP+L+RMLTFKFY PKKATE  HLQCL EELK LEEVL L QSKN HL   ++LISN+NV +L+LKGSET++ CEY DETATI EFLN+WITFCQSI STLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|XP_022452137.1|</Hit_id>
+  <Hit_def>interleukin-2 [Delphinapterus leucas] &gt;ref|XP_029091204.1| interleukin-2 [Monodon monoceros] &gt;gb|TKC49641.1| hypothetical protein EI555_007889 [Monodon monoceros]</Hit_def>
+  <Hit_accession>XP_022452137</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.97655e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFH-LRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKKQVQSLLQDLHLLLKEINNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNSIDIKDLMDNINRIVLTLKGSETRFTCEYDDETVTAVEFLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LL DL ++L  INNY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  + +  +DL+ NIN IVL LKGSET F CEY DET T VEFLN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|XP_020027786.1|</Hit_id>
+  <Hit_def>interleukin-2 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020027786</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>2.3782e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSTSTKETQQQLEQLLLDLQMILKGVNNYKNPKLSRMLTFKFYTPKKATELKHLQCLEEELKPLEEVLNLAQSKSFQLKDKRDLISNINVTVLKLKESEPPFMCEYDDETATIIEFLNKWITFCQTIISTL</Hsp_hseq>
+      <Hsp_midline>APTS+STK+TQ QLE LLLDLQMIL G+NNYKNPKL+RMLTFKFY PKKATELKHLQCLEEELKPLEEVLNLAQSK+F L+  RDLISNINV VL+LK SE  FMCEY DETATI+EFLN+WITFCQ+IISTL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>ref|XP_011373467.1|</Hit_id>
+  <Hit_def>interleukin-2 [Pteropus vampyrus] &gt;ref|XP_039735602.1| interleukin-2 [Pteropus giganteus]</Hit_def>
+  <Hit_accession>XP_011373467</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.70364e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSSSRKETQQQLEHLLKDLQRLLETVNNYKNHELSSMLTFKFYMPN-ATELNHLQCLVDELKPLEEVLTIAQSKNSHSDIKESVSNINVTAQKLKGPETKYTCVYNDESTNVKEFLNKWITFCQSILSTL</Hsp_hseq>
+      <Hsp_midline>APTSSS K+TQ QLEHLL DLQ +L  +NNYKN +L+ MLTFKFYMP  ATEL HLQCL +ELKPLEEVL +AQSKN H   ++ +SNINV   +LKG ET + C Y DE+  + EFLN+WITFCQSI+STL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gb|TEA41783.1|</Hit_id>
+  <Hit_def>hypothetical protein DBR06_SOUSAS2410023 [Sousa chinensis]</Hit_def>
+  <Hit_accession>TEA41783</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>1.54746e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFH-LRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKKQVQSLLQDLHLLLKEINNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNSIDIKDLMDNINRIVLTLKGSETGFTCEYDDETVTAVELLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LL DL ++L  INNY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  + +  +DL+ NIN IVL LKGSET F CEY DET T VE LN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|XP_004265151.1|</Hit_id>
+  <Hit_def>interleukin-2 [Orcinus orca] &gt;ref|XP_004322864.1| interleukin-2 [Tursiops truncatus] &gt;ref|XP_024600878.1| interleukin-2 [Neophocaena asiaeorientalis asiaeorientalis] &gt;ref|XP_030720181.1| interleukin-2 [Globicephala melas] &gt;ref|XP_032488558.1| interleukin-2 [Phocoena sinus]</Hit_def>
+  <Hit_accession>XP_004265151</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.67069e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFH-LRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKKQVQSLLQDLHLLLKEINNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNSIDIKDLMDNINRIVLTLKGSETRFTCEYDDETVTAVELLNKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LL DL ++L  INNY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  + +  +DL+ NIN IVL LKGSET F CEY DET T VE LN+WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|XP_028620777.1|</Hit_id>
+  <Hit_def>interleukin-2 [Grammomys surdaster]</Hit_def>
+  <Hit_accession>XP_028620777</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.70966e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLR-PRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIIST</Hsp_qseq>
+      <Hsp_hseq>APTSSSTKETQQHLEQLLMDLQVLLRRIDNYKNLKLPRMLTFKFFLPKQATELKDLQCLEVELGALRSVLDLTQSKSFQLEDAENFISNIRVTVVKLKGSENTFECQFDDEPATVVEFLRRWIAFCQSILTT</Hsp_hseq>
+      <Hsp_midline>APTSSSTK+TQ  LE LL+DLQ++L  I+NYKN KL RMLTFKF++PK+ATELK LQCLE EL  L  VL+L QSK+F L    + ISNI V V++LKGSE TF C++ DE AT+VEFL RWI FCQSI++T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|XP_006866348.1|</Hit_id>
+  <Hit_def>PREDICTED: interleukin-2 [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006866348</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.71361e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTREIQQQMEQLLLDLQMVLNTVTNSDTPKRSTMCRFKLNMPKKVTELKHLQCFVEELKALEDVLKVAQSK---IDTREIISNMNVTALKLKGSETTFMCEYDDKEADIIGFLNKWITFCQSILATLT</Hsp_hseq>
+      <Hsp_midline>APTSSST++ Q Q+E LLLDLQM+LN + N   PK + M  FK  MPKK TELKHLQC  EELK LE+VL +AQSK   +  R++ISN+NV  L+LKGSETTFMCEY D+ A I+ FLN+WITFCQSI++TLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|XP_007116133.1|</Hit_id>
+  <Hit_def>interleukin-2 [Physeter catodon]</Hit_def>
+  <Hit_accession>XP_007116133</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>1.92615e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKEQVKSLLLDLRLLSNEVNNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNWTGIKDLMDNINRIVLTLKGSETRFTCEYDDETVTAVEFLEKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LLLDL+++ N +NNY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  +    +DL+ NIN IVL LKGSET F CEY DET T VEFL +WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gb|ABB84516.1|</Hit_id>
+  <Hit_def>interleukin-2 [Marmota monax]</Hit_def>
+  <Hit_accession>ABB84516</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>2.26982e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSGSAEETRQQLEQLLLDLQMLSRGVSNQENSTLTRMLKFKFYMPMKASDLEHLQCLEEELKPLQEVLNVPQSKNFHLKDTRNFISNINVTVLKLKGSATTFTCEYAPETANIVEFLNTWITFCQSIISKLT</Hsp_hseq>
+      <Hsp_midline>APTS S ++T+ QLE LLLDLQM+  G++N +N  LTRML FKFYMP KA++L+HLQCLEEELKPL+EVLN+ QSKNFHL+  R+ ISNINV VL+LKGS TTF CEYA ETA IVEFLN WITFCQSIIS LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|XP_004711899.1|</Hit_id>
+  <Hit_def>interleukin-2 [Echinops telfairi]</Hit_def>
+  <Hit_accession>XP_004711899</Hit_accession>
+  <Hit_len>150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.33091e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSRSTKAMHQQLEQLLGDLDVTLRRVNNYETSKLSMMLRFKFYLPKKVTELKHLQCLVGELKPLEDVLNIAQNKE---DTSELISNINVTALELKGSETTFTCDYDEKTSTIVEFLSKWIAFCQSVISTLT</Hsp_hseq>
+      <Hsp_midline>APTS STK    QLE LL DL + L  +NNY+  KL+ ML FKFY+PKK TELKHLQCL  ELKPLE+VLN+AQ+K       +LISNINV  LELKGSETTF C+Y ++T+TIVEFL++WI FCQS+ISTLT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>ref|XP_036708890.1|</Hit_id>
+  <Hit_def>interleukin-2 [Balaenoptera musculus]</Hit_def>
+  <Hit_accession>XP_036708890</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.47753e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKEQVKSLLLDLQLLLKEIKNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEEVLNVAQSKTQNLTDIKDLMDNINRIVLTLKGSETRFTCEYDDETVTAVEFLKKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LLLDLQ++L  I NY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLEEVLN+AQSK  +L   +DL+ NIN IVL LKGSET F CEY DET T VEFL +WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gb|KAB0396752.1|</Hit_id>
+  <Hit_def>hypothetical protein E2I00_015074 [Balaenoptera physalus]</Hit_def>
+  <Hit_accession>KAB0396752</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.29311e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFH-LRPRDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTLT</Hsp_qseq>
+      <Hsp_hseq>APTSSSTENTKEQVKSLLLDLQLLLKEINNYENLKLFRMLTFKFYMPKKATELKHLQCLAEELKPLEDVLNVAQSKTQNSIDIKDLMDNINRIVLTLKGSETRFTCEYDDETVTAVEFLKKWITFCQSIYSTMT</Hsp_hseq>
+      <Hsp_midline>APTSSST+ T+ Q++ LLLDLQ++L  INNY+N KL RMLTFKFYMPKKATELKHLQCL EELKPLE+VLN+AQSK  + +  +DL+ NIN IVL LKGSET F CEY DET T VEFL +WITFCQSI ST+T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gb|KAF7475704.1|</Hit_id>
+  <Hit_def>hypothetical protein GHT09_013413 [Marmota monax]</Hit_def>
+  <Hit_accession>KAF7475704</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.59445e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSGSAEETRQQLEQLLLDLQMLLRGVSNQENSTLTRMLKFKFYMPMKASDLEHLQCLEEELKPLQEVLNVPQSKNFHLKDTRNFISNINVTVLKLKGSATTFTCEYAQETANIVEFLNTWITFCQSIISKL</Hsp_hseq>
+      <Hsp_midline>APTS S ++T+ QLE LLLDLQM+L G++N +N  LTRML FKFYMP KA++L+HLQCLEEELKPL+EVLN+ QSKNFHL+  R+ ISNINV VL+LKGS TTF CEYA ETA IVEFLN WITFCQSIIS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>emb|VTJ76426.1|</Hit_id>
+  <Hit_def>Hypothetical predicted protein [Marmota monax]</Hit_def>
+  <Hit_accession>VTJ76426</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>4.93716e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>APTSSSTKKTQLQLEHLLLDLQMILNGINNYKNPKLTRMLTFKFYMPKKATELKHLQCLEEELKPLEEVLNLAQSKNFHLRP-RDLISNINVIVLELKGSETTFMCEYADETATIVEFLNRWITFCQSIISTL</Hsp_qseq>
+      <Hsp_hseq>APTSGSAEETRQQLEQLLLDLQMLSRGVSNQENSTLTRMLKFKFYMPMKASDLEHLQCLEEELKPLQEVLNVPQSKNFHLKDTRNFISNINVTVLKLKGSATTFTCEYAQETANIVEFLNTWITFCQSIISKL</Hsp_hseq>
+      <Hsp_midline>APTS S ++T+ QLE LLLDLQM+  G++N +N  LTRML FKFYMP KA++L+HLQCLEEELKPL+EVLN+ QSKNFHL+  R+ ISNINV VL+LKGS TTF CEYA ETA IVEFLN WITFCQSIIS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>405733372</Statistics_db-num>
+      <Statistics_db-len>1601988648</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
