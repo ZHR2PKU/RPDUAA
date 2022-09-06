@@ -22,6 +22,10 @@ You can cite the RPDUAA program in your articles as follows or likewise:
 The unnatural amino acid (UAA) substitution sites on protein are preselected by
 the RPDUAA program (version 1.0, Haoran Zhang et al, Peking University).
 
+Reference: Haoran Zhang et al, Rational incorporation of any unnatural amino acid into proteins 
+by machine learning on existing experimental proofs, Computational and Structural Biotechnology 
+Journal (2022), https://doi.org/10.1016/j.csbj.2022.08.063
+
 '''The RPDUAA program (version 1.0) is provided under the 3-Clause BSD License.
 Copyright <2021> <Haoran Zhang> <Peking University>
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
