@@ -3,8 +3,6 @@
 3. Extract any part of RPDUAA.partn.rar into the current folder to obtain RPDUAA.exe
 4. Run RPDUAA.exe on a recommended Windows 10 (64-bit) platform and refer to Guide.pdf
 
-Name: Rational Protein Design with Unnatural Amino Acids (the RPDUAA program)
-Function: Prediction of High-Confidence Sites for UAA Substitutions on a Protein
 Reference: Haoran Zhang et al, Rational incorporation of any unnatural amino acid into proteins 
 by machine learning on existing experimental proofs, Computational and Structural Biotechnology 
 Journal (2022), https://doi.org/10.1016/j.csbj.2022.08.063
